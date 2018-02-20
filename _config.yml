@@ -1,8 +1,10 @@
 # Site settings
-title:
-email:
+title: "Autoprokat - wypożyczalnia samochodów osobowych, dostawczych i busów - wypożyczenia krótkoterminowe i długoterminowe"
+email: "autoprokat@autoprokat.pl"
+phone: "+48608295282"
+phone_visible: "608-295-282"
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
