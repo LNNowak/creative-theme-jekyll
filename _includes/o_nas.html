@@ -1,0 +1,14 @@
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{site.texts[page.layout].o_nas.napis_o_nas}}</h2>
+                {% for text in site.texts[page.layout].o_nas.teksty %}
+                    <hr class="light">
+                    <p class="text-faded">{{text}}</p>
+                {% endfor %}
+                <a href="#services" class="btn btn-default btn-xl page-scroll">{{site.texts[page.layout].o_nas.przycisk_lokacje}}</a>
+            </div>
+        </div>
+    </div>
+</section>

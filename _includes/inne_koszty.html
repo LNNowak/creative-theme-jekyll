@@ -1,0 +1,10 @@
+<div class="other_costs">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>{{site.texts[page.layout].inne_koszty.tytul}}</h2>
+            {% for koszt in site.texts[page.layout].inne_koszty.koszty %}
+                <div>{{koszt}}</div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,14 +1,274 @@
-# Site settings
-title: "Autoprokat - wypożyczalnia samochodów osobowych, dostawczych i busów - wypożyczenia krótkoterminowe i długoterminowe"
-email: "autoprokat@autoprokat.pl"
+# konfiguracja strony, nie zmieniać
+markdown: kramdown
+
+# zmienne tekstowe, można zmieniać
+email: "postos@wp.pl"
 phone: "+48608295282"
 phone_visible: "608-295-282"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+main_photo_author: "Pierre Réveillé"
+main_photo_author_url: "https://www.flickr.com/photos/kija_kaji/"
 
-twitter_username:
-github_username:
+pojazdy:
+  - tytul: "Ford Fiesta"
+    opis: ""
 
-# Build settings
-markdown: kramdown
+texts:
+
+  # polskie teksty:
+  front:
+    title: "Autoprokat - wypożyczalnia samochodów osobowych, dostawczych i busów - wypożyczenia krótkoterminowe i długoterminowe"
+
+    pojazdy:
+      - tytul: "Ford Fiesta"
+        opis: "1 doba: 100 PLN<br>2-4 dni: 80 PLN / dzień<br>Od 5 dni: 75 PLN / dzień"
+        obraz: "img/samochody/ford-fiesta.jpg"
+      - tytul: "Toyota Aygo"
+        opis: "1 doba: 100 PLN<br>2-4 dni: 80 PLN / dzień<br>Od 5 dni: 75 PLN / dzień"
+        obraz: "img/samochody/aygo.jpg"
+      - tytul: "Dacia Logan"
+        opis: "1 doba: 100 PLN<br>2-3 dni: 80 PLN / dzień<br>Od 4 dni: 70 PLN / dzień"
+        obraz: "img/samochody/logan.jpg"
+      - tytul: "Renault Megane"
+        opis: "1 doba: 120 PLN<br>2-7 dni: 95 PLN / dzień<br>Od 8 dni: 75-90 PLN (limit 100-300 km dziennie) / dzień"
+        obraz: "img/samochody/megane.jpg"
+      - tytul: "Nissan Note"
+        opis: "1 doba: 120 PLN<br>2-7 dni: 95 PLN / dzień<br>Od 8 dni: 75-90 PLN (limit 100-300 km dziennie) / dzień"
+        obraz: "img/samochody/nissan_note.jpg"
+      - tytul: "Toyota Auris"
+        opis: "1 doba: 130 PLN<br>Od 2 dni: 120 PLN / dzień"
+        obraz: "img/samochody/auris.jpg"
+      - tytul: "Toyota Yaris"
+        opis: "1 doba: 100 PLN<br>Od 2 dni: 80 PLN / dzień"
+        obraz: "img/samochody/ford-fiesta.jpg"
+
+    # kazdy wpis w nowej linii
+    inne_koszty:
+      tytul: "Inne koszty"
+      koszty:
+        - "Dzienny limit 100-300 km, 0,3-0,45 PLN / dodatkowy km"
+        - "Podstawienie pojazdu pod adres klienta: 10-50 PLN"
+        - "Postawienie i odebranie pojazdy poza godzinami 8-18: 20 PLN"
+
+    pierwszy_obraz:
+      nazwa_firmy: "Autoprokat"
+      krotki_opis: "Wypożyczalnia samochodów na terenie Warszawy, Białej Podlaskiej i&nbsp;Błonia"
+      przycisk_wiecej: "Dowiedz się więcej"
+
+    # tekstów w O NAS może być wiele, zostaną wyświetlone jeden pod drugim
+    o_nas:
+      napis_o_nas: "O&nbsp;nas"
+      teksty:
+        - "Firma Autoprokat powstała w&nbsp;2014 roku. Od tego czasu stale dbamy o&nbsp;zadowolenie naszych Klientów i&nbsp;standard naszej floty pojazdów."
+        - "Do Państwa dyspozycji posiamy samochody osobowe, od niewielkich i&nbsp;ekonomicznych, po te dysponujące większą mocą i&nbsp;pojemnością bagażnika."
+      przycisk_lokacje: "Gdzie jesteśmy?"
+
+    lokacje:
+      napis_lokalizacje: "Lokalizacje"
+      napis_pojazdy: "Zobacz samochody"
+      napis_kontakt: "Skontaktuj się"
+      punkty:
+        - nazwa: "Warszawa"
+          opis: "W&nbsp;stolicy jesteśmy elastyczni i&nbsp;zawsze staramy się dostować do Państwa potrzeb."
+          kolor_1: "rgb(255, 214, 0)"
+          kolor_2: "rgb(255, 17, 0)"
+        - nazwa: "Błonie k. Warszawy"
+          opis: "Obszar całego miasta."
+          kolor_1: "rgb(247, 243, 0)"
+          kolor_2: "rgb(57, 85, 159)"
+        - nazwa: "Biała Podlaska"
+          opis: "Dworzec główny oraz&nbsp;okolice ulicy Stacyjnej."
+          kolor_1: "rgb(97, 191, 26)"
+          kolor_2: "rgb(245, 64, 41)"
+
+    regulamin:
+      napis_regulamin: "Poniżej znajdziesz regulamin naszej wypożyczalni."
+      przycisk_regulamin: "Ściągnij regulamin"
+
+    contact:
+      napis_kontakt: "Skontaktuj się z&nbsp;nami!"
+      opis_kontakt: "Potrzebujesz samochodu na kilka dni? Interesuje Cię wynajem długoterminowy?<br>Zadzwoń lub&nbsp;napisz e-maila."
+
+    nav:
+      nawigacja: "Włącz nawigację"
+      o_nas: "O&nbsp;nas"
+      lokacje: "Lokacje"
+      pojazdy: "Pojazdy"
+      kontakt: "Kontakt"
+
+    # credit
+    photo_author_text: "Autor zdjęcia głównego:"
+
+
+
+
+  # angielskie teksty:
+  front_en:
+    title: "Autoprokat - cars, vans and buses rental - short-term and long-term car rental"
+
+    pojazdy:
+      - tytul: "Ford Fiesta"
+        opis: "1 day: 100 PLN<br>2-4 days: 80 PLN / day<br>From 5 days: 75 PLN / day"
+        obraz: "img/samochody/ford-fiesta.jpg"
+      - tytul: "Toyota Aygo"
+        opis: "1 day: 100 PLN<br>2-4 days: 80 PLN / day<br>From 5 days: 75 PLN / day"
+        obraz: "img/samochody/aygo.jpg"
+      - tytul: "Dacia Logan"
+        opis: "1 day: 100 PLN<br>2-3 days: 80 PLN / day<br>From 4 days: 70 PLN / day"
+        obraz: "img/samochody/logan.jpg"
+      - tytul: "Renault Megane"
+        opis: "1 day: 120 PLN<br>2-7 days: 95 PLN / day<br>From 8 days: 75-90 PLN (limit 100-300 km a day) / day"
+        obraz: "img/samochody/megane.jpg"
+      - tytul: "Nissan Note"
+        opis: "1 day: 120 PLN<br>2-7 days: 95 PLN / day<br>From 8 days: 75-90 PLN (limit 100-300 km a day) / day"
+        obraz: "img/samochody/nissan_note.jpg"
+      - tytul: "Toyota Auris"
+        opis: "1 day: 130 PLN<br>From 2 days: 120 PLN / day"
+        obraz: "img/samochody/auris.jpg"
+      - tytul: "Toyota Yaris"
+        opis: "1 day: 100 PLN<br>From 2 days: 80 PLN / day"
+        obraz: "img/samochody/ford-fiesta.jpg"
+
+    # kazdy wpis w nowej linii
+    inne_koszty:
+      tytul: "Other costs"
+      koszty:
+        - "Daily limit 100-300 km, 0.3-0.45 PLN / additional km"
+        - "A car drop-off at Client's address: 10-50 PLN"
+        - "A car pickup/drop-off before 8 AM or after 6 PM: 20 PLN"
+
+    pierwszy_obraz:
+      nazwa_firmy: "Autoprokat"
+      krotki_opis: "Car rental in&nbsp;Warsaw, Biała Podlaska and&nbsp;Błonie"
+      przycisk_wiecej: "Find out more"
+
+    # tekstów w O NAS może być wiele, zostaną wyświetlone jeden pod drugim
+    o_nas:
+      napis_o_nas: "About&nbsp;us"
+      teksty:
+        - "The Autoprokat company has been founded in&nbsp;2014. Since that time, we constantly care about our Clients' satisfaction and&nbsp;our fleet standards."
+        - "We provide a&nbsp;wide range of&nbsp;cars at&nbsp;your disposal, from small and&nbsp;economical, to those with more power and&nbsp;trunk capacity."
+      przycisk_lokacje: "Where are we?"
+
+    lokacje:
+      napis_lokalizacje: "Locations"
+      napis_pojazdy: "Vehicles"
+      napis_kontakt: "Contact us"
+      punkty:
+        - nazwa: "Warsaw"
+          opis: "In the&nbsp;capital we are flexible and&nbsp;always try to get your needs met."
+          kolor_1: "rgb(255, 214, 0)"
+          kolor_2: "rgb(255, 17, 0)"
+        - nazwa: "Błonie near Warsaw"
+          opis: "The city's area."
+          kolor_1: "rgb(247, 243, 0)"
+          kolor_2: "rgb(57, 85, 159)"
+        - nazwa: "Biała Podlaska"
+          opis: "The main railway station and Stacyjna street whereabouts."
+          kolor_1: "rgb(97, 191, 26)"
+          kolor_2: "rgb(245, 64, 41)"
+
+    regulamin:
+      napis_regulamin: "Here you can get our terms of use (in polish)."
+      przycisk_regulamin: "Download"
+
+    contact:
+      napis_kontakt: "Get in&nbsp;touch!"
+      opis_kontakt: "Need a&nbsp;car for a&nbsp;few days? Interested in a&nbsp;long-term rental?<br>Call us or&nbsp;write us an&nbsp;e-mail."
+
+    nav:
+      nawigacja: "Turn on the navigation"
+      o_nas: "About&nbsp;us"
+      lokacje: "Locations"
+      pojazdy: "Vehicles"
+      kontakt: "Contact"
+
+
+    # credit
+    photo_author_text: "The main photo author:"
+
+  # rosyjskie teksty:
+  front_ru:
+    title: "Autoprokat - wypożyczalnia samochodów osobowych, dostawczych i busów - wypożyczenia krótkoterminowe i długoterminowe"
+
+    pojazdy:
+      - tytul: "Ford Fiesta"
+        opis: "1 doba: 100 PLN<br>2-4 dni: 80 PLN / dzień<br>Od 5 dni: 75 PLN / dzień"
+        obraz: "img/samochody/ford-fiesta.jpg"
+      - tytul: "Toyota Aygo"
+        opis: "1 doba: 100 PLN<br>2-4 dni: 80 PLN / dzień<br>Od 5 dni: 75 PLN / dzień"
+        obraz: "img/samochody/aygo.jpg"
+      - tytul: "Dacia Logan"
+        opis: "1 doba: 100 PLN<br>2-3 dni: 80 PLN / dzień<br>Od 4 dni: 70 PLN / dzień"
+        obraz: "img/samochody/logan.jpg"
+      - tytul: "Renault Megane"
+        opis: "1 doba: 120 PLN<br>2-7 dni: 95 PLN / dzień<br>Od 8 dni: 75-90 PLN (limit 100-300 km dziennie) / dzień"
+        obraz: "img/samochody/megane.jpg"
+      - tytul: "Nissan Note"
+        opis: "1 doba: 120 PLN<br>2-7 dni: 95 PLN / dzień<br>Od 8 dni: 75-90 PLN (limit 100-300 km dziennie) / dzień"
+        obraz: "img/samochody/nissan_note.jpg"
+      - tytul: "Toyota Auris"
+        opis: "1 doba: 130 PLN<br>Od 2 dni: 120 PLN / dzień"
+        obraz: "img/samochody/auris.jpg"
+      - tytul: "Toyota Yaris"
+        opis: "1 doba: 100 PLN<br>Od 2 dni: 80 PLN / dzień"
+        obraz: "img/samochody/ford-fiesta.jpg"
+
+    # kazdy wpis w nowej linii
+    inne_koszty:
+      tytul: "Inne koszty"
+      koszty:
+        - "Dzienny limit 100-300 km, 0,3-0,45 PLN / dodatkowy km"
+        - "Podstawienie pojazdu pod adres klienta: 10-50 PLN"
+        - "Postawienie i odebranie pojazdy poza godzinami 8-18: 20 PLN"
+
+    pierwszy_obraz:
+      nazwa_firmy: "Autoprokat"
+      krotki_opis: "Wypożyczalnia samochodów na terenie Warszawy, Białej Podlaskiej i&nbsp;Błonia"
+      przycisk_wiecej: "Dowiedz się więcej"
+
+    # tekstów w O NAS może być wiele, zostaną wyświetlone jeden pod drugim
+    o_nas:
+      napis_o_nas: "O&nbsp;nas"
+      teksty:
+        - "Firma Autoprokat powstała w&nbsp;2014 roku. Od tego czasu stale dbamy o&nbsp;zadowolenie naszych Klientów i&nbsp;standard naszej floty pojazdów."
+        - "Do Państwa dyspozycji posiamy samochody osobowe, od niewielkich i&nbsp;ekonomicznych, po te dysponujące większą mocą i&nbsp;pojemnością bagażnika."
+      przycisk_lokacje: "Gdzie jesteśmy?"
+
+    lokacje:
+      napis_lokalizacje: "Lokalizacje"
+      napis_pojazdy: "Zobacz samochody"
+      napis_kontakt: "Skontaktuj się"
+      punkty:
+        - nazwa: "Warszawa"
+          opis: "W&nbsp;stolicy jesteśmy elastyczni i&nbsp;zawsze staramy się dostować do Państwa potrzeb."
+          kolor_1: "rgb(255, 214, 0)"
+          kolor_2: "rgb(255, 17, 0)"
+        - nazwa: "Błonie k. Warszawy"
+          opis: "Obszar całego miasta."
+          kolor_1: "rgb(247, 243, 0)"
+          kolor_2: "rgb(57, 85, 159)"
+        - nazwa: "Biała Podlaska"
+          opis: "Dworzec główny oraz&nbsp;okolice ulicy Stacyjnej."
+          kolor_1: "rgb(97, 191, 26)"
+          kolor_2: "rgb(245, 64, 41)"
+
+    regulamin:
+      napis_regulamin: "Poniżej znajdziesz regulamin naszej wypożyczalni."
+      przycisk_regulamin: "Ściągnij regulamin"
+
+    contact:
+      napis_kontakt: "Skontaktuj się z&nbsp;nami!"
+      opis_kontakt: "Potrzebujesz samochodu na kilka dni? Interesuje Cię wynajem długoterminowy?<br>Zadzwoń lub&nbsp;napisz e-maila."
+
+    nav:
+      nawigacja: "Włącz nawigację"
+      o_nas: "O&nbsp;nas"
+      lokacje: "Lokacje"
+      pojazdy: "Pojazdy"
+      kontakt: "Kontakt"
+
+    # credit
+    photo_author_text: "Autor zdjęcia głównego:"

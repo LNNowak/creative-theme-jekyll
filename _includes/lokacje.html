@@ -1,0 +1,37 @@
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ site.texts[page.layout].lokacje.napis_lokalizacje }}</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {% for lok in site.texts[page.layout].lokacje.punkty %}
+            <div class="col-lg-4 {% if forloop.last %}col-md-12{% else %}col-md-6{% endif %} text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-map-marker text-primary" style="background: linear-gradient(90deg, {{lok.kolor_1}}, {{lok.kolor_1}} 49%, white 49%, white 51%, {{lok.kolor_2}} 51%);
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;"></i>
+                    <h3>{{lok.nazwa}}</h3>
+                    <p class="text-muted">{{lok.opis}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <br>>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center">
+                <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">{{ site.texts[page.layout].lokacje.napis_pojazdy }}</a>
+            </div>
+            <div class="col-md-6 col-sm-6 text-center">
+                <a href="#contact" class="btn btn-primary btn-xl page-scroll go-to-contact-btn">{{ site.texts[page.layout].lokacje.napis_kontakt }}</a>
+            </div>
+        </div>
+    </div>
+</section>

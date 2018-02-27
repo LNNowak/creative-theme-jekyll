@@ -47,8 +47,14 @@ p {
 }
 
 .bg-dark {
+    background-color: $lighten;
+    color: white;
+}
+
+.other_costs {
     background-color: $theme-dark;
     color: white;
+    padding: 50px 0;
 }
 
 .text-faded {
@@ -295,27 +301,6 @@ header {
     color: $theme-primary;
 }
 
-.warszawa-znacznik {
-    background: linear-gradient(90deg, $yellow-warsaw, $yellow-warsaw 49%, white 49%, white 51%, $red-warsaw 51%);
-    background-clip: text;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.bp-znacznik {
-    background: linear-gradient(90deg, $green-bp, $green-bp 49%, white 49%, white 51%, $red-bp 51%);
-    background-clip: text;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.terespol-znacznik {
-    background: linear-gradient(90deg, $yellow-terespol, $yellow-terespol 49%, white 49%, white 51%, $red-terespol 51%);
-    background-clip: text;
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
 @media (max-width: 767px) {
     .go-to-contact-btn {
         margin-top: 20px;
@@ -355,7 +340,7 @@ header {
 // Contact
 #contact .fa {
     color: $theme-dark;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 // Extras

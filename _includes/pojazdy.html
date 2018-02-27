@@ -1,0 +1,23 @@
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {% for pojazd in site.texts[page.layout].pojazdy %}
+            <div class="col-lg-4 col-sm-6">
+                <div href="" class="portfolio-box">
+                    <img src="{{pojazd.obraz}}" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                {{pojazd.tytul}}
+                            </div>
+                            <div class="project-name">
+                                {{pojazd.opis}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

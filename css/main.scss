@@ -40,8 +40,9 @@ $yellow-warsaw: rgb(255, 214, 0);
 $red-warsaw: rgb(255, 17, 0);
 $green-bp: rgb(97, 191, 26);
 $red-bp: rgb(245, 64, 41);
-$yellow-terespol: rgb(252, 237, 74);
-$red-terespol: rgb(242, 3, 4);
+$yellow-blonie: rgb(247, 243, 0);
+$blue-blonie: rgb(57, 85, 159);
+$lighten: lighten($theme-dark, 20%);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
