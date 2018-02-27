@@ -42,7 +42,7 @@ texts:
         obraz: "img/samochody/auris.jpg"
       - tytul: "Toyota Yaris"
         opis: "1 doba: 100 PLN<br>Od 2 dni: 80 PLN / dzień"
-        obraz: "img/samochody/ford-fiesta.jpg"
+        obraz: "img/samochody/yaris.jpg"
 
     # kazdy wpis w nowej linii
     inne_koszty:
@@ -129,7 +129,7 @@ texts:
         obraz: "img/samochody/auris.jpg"
       - tytul: "Toyota Yaris"
         opis: "1 day: 100 PLN<br>From 2 days: 80 PLN / day"
-        obraz: "img/samochody/ford-fiesta.jpg"
+        obraz: "img/samochody/yaris.jpg"
 
     # kazdy wpis w nowej linii
     inne_koszty:
@@ -214,7 +214,7 @@ texts:
         obraz: "img/samochody/auris.jpg"
       - tytul: "Toyota Yaris"
         opis: "1 doba: 100 PLN<br>Od 2 dni: 80 PLN / dzień"
-        obraz: "img/samochody/ford-fiesta.jpg"
+        obraz: "img/samochody/yaris.jpg"
 
     # kazdy wpis w nowej linii
     inne_koszty:
